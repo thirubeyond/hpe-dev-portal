@@ -50,6 +50,8 @@ Follow the steps below to implement the NVIDIA NeMo Guardrails with HPE Private 
 
 ![packaged model storage configuration](/img/4_storage_config_pm.png "packaged model storage configuration")
 
+**Note**: If you use the Playground feature to access the packaged model endpoint, do **not** select 'Custom' as the Model format. Instead, select 'vLLM' and leave the image field empty. The packaged	model will automatically use the default vLLM image supported by the the platform.
+
   1.5 Provide resource configuration details
 
 ![Packaged Model resource configuration](/img/5_resource_config_pm.png "Packaged Model resource configuration")
